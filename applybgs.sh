@@ -1,6 +1,7 @@
 #!/bin/bash
 
 # update background list
+sudo rm -rf /usr/share/backgrounds/hidebackgrounds
 cd /usr/share/backgrounds
 sudo git clone https://github.com/eyehide/hidebackgrounds
 cd ./hidebackgrounds
